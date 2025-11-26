@@ -17,4 +17,4 @@ if hist_checkbox:
 if scatter_checkbox:
     st.write("Creacion de un diagrama de dispersion para el conjunto de datos de anuncios de venta de coches")
     fig = px.scatter(car_data,x="odometer", y="price")
-    fig.show()
+    st.plotly_chart(fig,use_container_width=True)
