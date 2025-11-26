@@ -1,1 +1,1 @@
-# proyecto-sprint-7
+Entrega del proyecto del sprint 7
